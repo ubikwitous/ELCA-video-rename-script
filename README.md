@@ -61,7 +61,8 @@ Add custom dates and PrimaryLiturgicalTitles for holidays or special services if
 ## 📜 License
 This project is released under the MIT License. Use it freely for any church or community purpose.
 
-## 🙏 Thanks to the ELCA and broader liturgical open data contributors for making structured worship planning possible through 2050!
+## 🙏 Thanks 
+Thanks to the ELCA and broader liturgical open data contributors for making structured worship planning possible through 2050!
 
 
 
