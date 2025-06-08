@@ -47,9 +47,9 @@ D:
    OR double-click RunChurchVideoRename.bat to trigger the process.
 
 ⛪ Liturgical Calendar Notes
-The calendar follows the Revised Common Lectionary (RCL) used by the Evangelical Lutheran Church in America (ELCA).
+The calendar follows the Revised Common Lectionary (RCL) used by the Evangelical Lutheran Church in America (ELCA). The CSV file was generated using ChatGPT with a manual review and corrections.
 
-Some Major feast days and some fringe dates that fell on Sundays are included, but if you prefer to use other names, these can be edited manually the CSV.
+Some major feast days and some fringe dates that fell on Sundays are included, but if you prefer to use other names, these can be edited manually the CSV.
 
 📝 Customization
 You can edit the PowerShell script to use the creation date instead of the modified date.
