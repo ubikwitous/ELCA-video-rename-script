@@ -7,7 +7,7 @@ It uses a PowerShell script to rename `.mp4` files based on the **modified date*
 ## 📦 Files
 
 - `Rename-ChurchVideos.ps1` — The PowerShell script that renames `.mp4` files in your designated folder.
-- `elca_liturgical_calendar_primary_titles.csv` — A calendar of ELCA liturgical Sundays from 2022–2050, including titles like "Fourth Sunday of Easter" and "Christ the King".
+- `elca_liturgical_calendar_2022_2050.csv` — A calendar of ELCA liturgical Sundays from 2022–2050, including titles like "Fourth Sunday of Easter" and "Christ the King".
 - `RunChurchVideoRename.bat` — (Optional) A batch file to run the PowerShell script with a simple double-click.
 
 ## 🔧 Requirements
@@ -30,9 +30,9 @@ D:
 ## 🧠 How It Works
 
 1. The script reads the **last modified date** of each `.mp4` file.
-2. It looks up the corresponding **liturgical title** from the CSV.
+2. It looks up the corresponding **PrimaryLiturgicalTitle** from the CSV.
 3. It renames the file using this format:
-    YYYY-MM-DD Liturgical Title.mp4
+    YYYY-MM-DD PrimaryLiturgicalTitle.mp4
 5. If multiple files exist for the same date, it appends `-A`, `-B`, etc.:
     2025-04-13 Fourth Sunday of Easter.mp4
     2025-04-13 Fourth Sunday of Easter-A.mp4
@@ -56,7 +56,7 @@ You can edit the PowerShell script to use the creation date instead of the modif
 
 You can change the default folder or naming convention as needed.
 
-Add custom logic for holidays or special services if applicable (e.g., Easter Vigil, Christmas Eve).
+Add custom dates and PrimaryLiturgicalTitles for holidays or special services if applicable (e.g., Easter Vigil, Christmas Eve).
 
 📜 License
 This project is released under the MIT License. Use it freely for any church or community purpose.
