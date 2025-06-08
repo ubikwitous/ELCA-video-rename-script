@@ -46,22 +46,22 @@ D:
    .\Rename-ChurchVideos.ps1
    OR double-click RunChurchVideoRename.bat to trigger the process.
 
-⛪ Liturgical Calendar Notes
+## ⛪ Liturgical Calendar Notes
 The calendar follows the Revised Common Lectionary (RCL) used by the Evangelical Lutheran Church in America (ELCA). The CSV file was generated using ChatGPT with a manual review and corrections.
 
 Some major feast days and some fringe dates that fell on Sundays are included, but if you prefer to use other names, these can be edited manually the CSV.
 
-📝 Customization
+## 📝 Customization
 You can edit the PowerShell script to use the creation date instead of the modified date.
 
 You can change the default folder or naming convention as needed.
 
 Add custom dates and PrimaryLiturgicalTitles for holidays or special services if applicable (e.g., Easter Vigil, Christmas Eve).
 
-📜 License
+## 📜 License
 This project is released under the MIT License. Use it freely for any church or community purpose.
 
-🙏 Thanks to the ELCA and broader liturgical open data contributors for making structured worship planning possible through 2050!
+## 🙏 Thanks to the ELCA and broader liturgical open data contributors for making structured worship planning possible through 2050!
 
 
 
